@@ -1,4 +1,4 @@
-package com.alight.ds1;
+package com.amresh.ds1;
 
 
 public class DS3_SearchSortedArray
