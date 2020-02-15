@@ -1,6 +1,6 @@
 package Array;
 
-public class CountTripletsSum {
+public class DS6_CountTripletsSum {
 
 	static int arr[] = new int[] { 5, 1, 3, 4, 7 };
 
