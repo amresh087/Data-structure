@@ -10,7 +10,7 @@
 
 package Array;
 
-public class Ds5_ReverseStringWithoutSpecialChar {
+public class DS5_ReverseStringWithoutSpecialChar {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
