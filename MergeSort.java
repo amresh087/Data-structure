@@ -18,7 +18,7 @@ public class MergeSort {
 		}
 
 		MergeSort ms = new MergeSort();
-		ms.mergeSort(arr, 0,n-1);
+		ms.mergeSort(arr,0,n-1);
 		
 		// print
 		ms.printData(arr, n);
@@ -39,19 +39,19 @@ public class MergeSort {
 	public void merge(int arr[],int start,int mid,int end) {
 		// think when it reach last recusive then start=0 and end=0
 		// l=0-0+1
-		int l=mid-start+1; 
-		int r=end-start;
+		int l = mid - start + 1; 
+		int r = end - start;
 		
 		int left_subarray[]=new int[l];
 		int right_subarray[]=new int[r];
 		
-		for(int i=0;i<l;i++) {
+		for(int i=0;i<l;++i) 
 			left_subarray[i]=arr[start+i];
-		}
 		
-		for(int j=0;j<r;j++) {
-			right_subarray[j]=arr[end+j];
-		}
+		
+		for(int j=0;j<r;++j)
+			right_subarray[j]=arr[mid+1+j];
+		
 		
 		
 		int i=0,j=0;
