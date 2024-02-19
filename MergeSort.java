@@ -40,7 +40,7 @@ public class MergeSort {
 		// think when it reach last recusive then start=0 and end=0
 		// l=0-0+1
 		int l = mid - start + 1; 
-		int r = end - start;
+		int r = end - mid;
 		
 		int left_subarray[]=new int[l];
 		int right_subarray[]=new int[r];
