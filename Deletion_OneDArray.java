@@ -17,7 +17,7 @@ class Deletion_OneDArray
 		int m=sc.nextInt();
 		System.out.println("Enter the new element value");
 		int newValue=sc.nextInt();
-		for(j=0;j<n+1;j++)
+		for(j=0;j<n-1;j++)
 		{
 			if(j==m){
 				continue;
